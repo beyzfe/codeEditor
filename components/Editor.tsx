@@ -22,7 +22,6 @@ export default function CodeEditor({ code, setCode }: Props) {
         autoClosingBrackets: "always",
         formatOnType: true,
         automaticLayout: true,
-        wordWrap: "on",
       }}
     />
   );
